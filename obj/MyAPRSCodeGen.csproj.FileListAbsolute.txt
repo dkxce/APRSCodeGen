@@ -1,0 +1,8 @@
+D:\Projects\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\MyAPRSCodeGen\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\MyAPRSCodeGen\obj\Debug\MyAPRSCodeGen.Form1.resources
+D:\Projects\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\MyAPRSCodeGen\obj\Debug\MyAPRSCodeGen.Properties.Resources.resources
+D:\Projects\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\MyAPRSCodeGen\obj\Debug\MyAPRSCodeGen.csproj.GenerateResource.Cache
+D:\Projects\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\MyAPRSCodeGen\bin\Debug\MyAPRSCodeGen.exe
+D:\Projects\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\MyAPRSCodeGen\bin\Debug\MyAPRSCodeGen.pdb
+D:\Projects\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\MyAPRSCodeGen\obj\Debug\MyAPRSCodeGen.exe
+D:\Projects\BaoFeng 2-Way Radio HAM (Рации)\HAM\APRS\MyAPRSSoft\MyAPRSCodeGen\obj\Debug\MyAPRSCodeGen.pdb
