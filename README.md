@@ -5,6 +5,6 @@ APRS-IS user code generator
 Main Function in Form1.cs:  
 CallsignChecksum(string callsign)
 
-[Exe](https://github.com/dkxce/APRSCodeGen/raw/main/bin/Debug/MyAPRSCodeGen.exe)
+[Download Exe](https://github.com/dkxce/APRSCodeGen/raw/main/bin/Debug/MyAPRSCodeGen.exe)
 
-[HTML](APRSCodeGen.html)
+<a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/dkxce/APRSCodeGen/main/APRSCodeGen.html">HTML CodeGen</a>
