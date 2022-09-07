@@ -1,0 +1,31 @@
+<!-- Author: https://github.com/dkxce -->
+<html>
+	<title>APRSCodeGen</title>	
+<body>
+	<b>Enter callsign and press Enter</b><br/><br/>
+	<table cellpadding="0" cellspacing="0" style="border:none;">
+	<tr><td>CALLSIGN: </td><td><input id="callsign" type="text" maxlength="10" onchange="Calc()" value="" style="background-color:yellow;border:solid 1px gray;"/></td></tr>
+	<tr><td>PASSCODE: </td><td><input id="password" type="text" maxlength="10" value=""  style="background-color:silver;border:solid 1px gray;" readonly/></td></tr>
+	</table>
+<body>
+<script>
+	function Calc() { document.getElementById("password").value = gcs(document.getElementById("callsign").value); }
+	function gcs(callsign)
+	{
+		let stophere = callsign.indexOf("-");
+		if (stophere > 0) callsign = callsign.substr(0, stophere);
+		let realcall = callsign.toUpperCase();
+		while (realcall.length < 10) realcall += " ";					
+		let hash = 0x73e2; 
+		let i = 0;
+		let len = realcall.length;		
+		while (i < len)
+		{
+			hash ^= realcall.charCodeAt(i) << 8;
+			hash ^= realcall.charCodeAt(i + 1);
+			i += 2;
+		};		
+		return hash & 0x7fff;
+	}
+</script>
+</html>
